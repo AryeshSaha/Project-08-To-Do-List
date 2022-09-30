@@ -1,0 +1,44 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-image: linear-gradient(to top, #cfd9df 0%, #0097e9 100%);
+}
+
+.col-md-5 {
+  margin-top: 13rem !important;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 3rem 2rem;
+}
+
+h1 {
+  margin-bottom: 45px;
+}
+
+input {
+  display: inline !important;
+  width: 85% !important;
+}
+
+button {
+  margin-left: 1.3rem;
+  background-color: #0097e9 !important;
+  color: white !important;
+  font-size: 1.3rem !important;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+  width: 80%;
+  padding: 10px;
+  margin: 10px;
+}
+
+@media (max-width: 992px) {
+  input {
+    width: 74% !important;
+  }
+}
